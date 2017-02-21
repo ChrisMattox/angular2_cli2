@@ -4,9 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  template: `
-<h1>Hello from the {{componentName}}.</h1>
-`
+  // template: `<h1>Hello from the {{componentName}}.</h1>`
 })
 export class AppComponent {
   title = 'Found The Title!';
@@ -16,13 +14,8 @@ export class AppComponent {
   clicked(event) {
     let someArray = [1, "string", false];
       for (let entry of someArray) {
-
         console.log(entry);
       }
       console.log("Weeeee")
   }
-
-
-
-
 }
