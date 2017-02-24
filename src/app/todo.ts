@@ -7,5 +7,9 @@ export class Todo {
   Object.assign(this, values);
   }
 
-  
 }
+
+let todo = new Todo({
+  title: 'Read SitePoint article',
+  complete: false
+});
